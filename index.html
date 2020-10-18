@@ -70,7 +70,7 @@
 						<div class="desc">
 							<h2 class="subheading">Hello I'm</h2>
 							<h1 class="mb-4">Yinghai Yu</h1>
-							<p class="mb-4">I am a certified AWS Certified Solutions Associate Architect adept at common AWS services include but not limited to S3, EMR, Redshift, SQS, and Route 53. Apart from, I am also enthusiastic about algorithms in Data Science and cutting-edge techniques such as Flink and Kafka. I am also proficient in geographical data visualization using ArcGIS and spatial data analysis. I would love to dedicate my techniques and education experience to data science field. I am always keen on learning and would like to gain industrial experience via internships, co-ops and full-times.</p>
+							<p class="mb-4">I am a certified AWS Certified Solutions Associate Architect adept at common AWS services include but not limited to S3, EMR, Redshift, SQS, and Route 53. Apart from, I am also enthusiastic about algorithms in Data Science and cutting-edge techniques such as Apache Spark, Flink and Kafka. I am also proficient in geographical data visualization using ArcGIS and spatial data analysis.</p>
 							<p><a href="#" class="btn-custom">More About Me <span class="ion-ios-arrow-forward"></span></a></p>
 						</div>
 					</div>
