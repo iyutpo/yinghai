@@ -4,6 +4,11 @@ body {
   font-weight: 400;
 }
 
+.university{
+  font-size: 17px;
+  font-weight: 500;
+}
+
 /*===== Vertical Timeline =====*/
 #conference-timeline {
   position: relative;
@@ -65,6 +70,7 @@ body {
 .timeline-article .content-right-container {
   max-width: 44%;
   width: 100%;
+
 }
 .timeline-article .timeline-author {
   display: block;
@@ -77,11 +83,12 @@ body {
 .timeline-article .content-left,
 .timeline-article .content-right {
   position: relative;
-  width: auto;
+  width: 30em;
   border: 1px solid #ddd;
   background-color: #fff;
   box-shadow: 0 1px 3px rgba(0,0,0,.03);
   padding: 27px 25px;
+  margin-top: 40px;
 }
 .timeline-article p {
   margin: 0 0 0 60px;
