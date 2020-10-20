@@ -47,7 +47,7 @@ body {
 }
 .timeline-article {
   width: 200%;
-  height: 350px;
+  height: 250px;
   position: relative;
   overflow: hidden;
   margin: 20px 0;
@@ -63,9 +63,9 @@ body {
   border-radius: 50%;
   position: absolute;
   margin-left: -150px;
-  top: 34%;
   left: 17%;
-  bottom: 60%;
+  vertical-align: center;
+  top: 10%;
 }
 .timeline-article .content-right-container {
   max-width: 44%;
@@ -87,11 +87,12 @@ body {
   border: 1px solid #ddd;
   background-color: #fff;
   box-shadow: 0 1px 3px rgba(0,0,0,.03);
-  padding: 27px 25px;
-  min-height: 65px;
-  top: 40%;
+  padding: 5px 5px;
+  min-height: 100px;
+  top: 20%;
+  
+  /* text-align: justify; */
   left: 30%;
-
 }
 .timeline-article p {
   margin: 0 0 0 60px;
@@ -135,8 +136,7 @@ body {
 .timeline-article .meta-date {
   position: absolute;
   left: 24.25%;
-  top: 22.5%;
-  bottom: 60%;
+  top: 17%;
   width: 6vw;
   height: 6vw;
   margin-left: -45px;
@@ -144,7 +144,6 @@ body {
   border-radius: 100%;
   background: #fff;
   opacity: 90%;
-  margin-top: 67px;
 }
 .timeline-article .meta-date .year,
 .timeline-article .meta-date .month {
