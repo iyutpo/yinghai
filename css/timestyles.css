@@ -46,7 +46,7 @@ body {
   padding-bottom: 67px;
 }
 .timeline-article {
-  width: 100%;
+  width: 200%;
   height: 350px;
   position: relative;
   overflow: hidden;
@@ -57,15 +57,15 @@ body {
   margin-top: 0px;
 }
 .timeline-article .content-left-container .timeline-image{
-  position: relative;
-  width: 9.75vw;
-  height: 9.75vw;
+  width: 8vw;
+  height: 8vw;
   overflow: hidden;
   border-radius: 50%;
   position: absolute;
-  margin-top: 0px;
-  /* margin-left: 250px; */
-
+  margin-left: -150px;
+  top: 34%;
+  left: 17%;
+  bottom: 60%;
 }
 .timeline-article .content-right-container {
   max-width: 44%;
@@ -82,13 +82,16 @@ body {
 }
 .timeline-article .content-left,
 .timeline-article .content-right {
-  position: relative;
-  width: 30em;
+  position: absolute;
+  width: 25em;
   border: 1px solid #ddd;
   background-color: #fff;
   box-shadow: 0 1px 3px rgba(0,0,0,.03);
   padding: 27px 25px;
-  margin-top: 40px;
+  min-height: 65px;
+  top: 40%;
+  left: 30%;
+
 }
 .timeline-article p {
   margin: 0 0 0 60px;
@@ -131,15 +134,17 @@ body {
 }
 .timeline-article .meta-date {
   position: absolute;
-  top: 10%;
-  left: 50%;
-  width: 90px;
-  height: 90px;
+  left: 24.25%;
+  top: 22.5%;
+  bottom: 60%;
+  width: 6vw;
+  height: 6vw;
   margin-left: -45px;
   color: #5A5959;
   border-radius: 100%;
   background: #fff;
   opacity: 90%;
+  margin-top: 67px;
 }
 .timeline-article .meta-date .year,
 .timeline-article .meta-date .month {
@@ -151,15 +156,15 @@ body {
   font-size: 20px;
   line-height: 10px;
   position: absolute;
-  margin-left: 18.5px;
-  margin-top: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
 }
 .timeline-article .meta-date .month {
   font-size: 18px;
   line-height: 10px;
   position: absolute;
-  margin-left: 23px;
-  margin-top: 55px;
+  margin-left: 38px;
+  margin-top: 70px;
 }
 /*===== // Vertical Timeline =====*/
 
@@ -192,6 +197,10 @@ body {
   .timeline-article .content-right {
     padding: 10px 25px;
     min-height: 65px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-left: -45px;
   }
   .timeline-article .content-left:before {
     content: "\f0d9";

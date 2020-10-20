@@ -7583,7 +7583,7 @@ h1, h2, h3, h4, h5,
     content: '';
     opacity: .7;
     background: #fff;
-    z-index: 0; }
+    z-index: 0;}
   .hero-wrap.hero-wrap-2 .overlay {
     opacity: .8; }
   .hero-wrap .text {
