@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- education.html使用的是 timestyles.css 文件 -->
 <html lang="en">
   <head>
     <title>💙 Welcome to my Personal Website</title>
@@ -26,12 +27,15 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/timelinestyle.css">
+    <!-- <link rel="stylesheet" href="css/timelinestyle.css"> -->
+    <link rel="stylesheet" href="css/timestyles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
 
 	<div id="colorlib-page">
+
+
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
 		<aside id="colorlib-aside" role="complementary" class="js-fullheight text-center">
 			<h1 id="colorlib-logo"><a href="index.html">Yinghai Yu<span>.</span></a></h1>
@@ -62,49 +66,66 @@
 				</ul>
 			</div>
 		</aside> <!-- END COLORLIB-ASIDE -->
-		<div id="colorlib-main">
-      <div class="experience">
-        <ul class="timeline">
-        <li>
-          <div class="timeline-image">
-            <img class="img-circle" src="images/GaTech.jpg" style="background-image: url(images/GaTech.jpg);" alt="">
+
+    <section id="conference-timeline">
+      <div class="conference-center-line"></div>
+      <div class="conference-timeline-content">
+        <!-- Article -->
+        <div class="timeline-article">
+          <div class="content-left-container">
+            <img class="timeline-image" src="images/GaTech.jpg" style="background-image: url(images/GaTech.jpg);" alt="">
           </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4>The Georgia Institute of Technology</h4>
-              <h4 class="subheading">M.S. Major in Computer Science</h4>
-              <h6>01/2021 - 01/2023</h6>
+          <div class="content-right-container">
+            <div class="content-right">
+              <h5 class="university">The Georgia Institute of Technology</h5>
+              <h6>M.S. Major in Computer Science</h6>
             </div>
           </div>
-          <div class="line"></div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-image">
-            <img class="img-circle" src="images/PennState.jpg" style="background-image: url(images/PennState.jpg);" alt="">
+          <div class="meta-date">
+            <span class="year">2021</span>
+            <span class="month">Jan</span>
           </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4>The Pennsylvania State University</h4>
-              <h4 class="subheading">M.S. Major in Civil and Environmental Engineering</h4>
-              <h4 class="subheading">M.S. Minor in Computational Science</h4>
-              <h6>08/2017 - 08/2019</h6>
+        </div>
+        <!-- // Article -->
+
+        <!-- Article -->
+        <div class="timeline-article">
+          <div class="content-left-container">
+            <img class="timeline-image" src="images/PennState.jpg" style="background-image: url(images/PennState.jpg);" alt="">
+          </div>
+          <div class="content-right-container">
+            <div class="content-right">
+              <h5 class="university">The Pennsylvania State University</h5>
+              <h6>M.S. Major in Civil and Environmental Engineering</h6>
+              <h6>M.S. Minor in Computational Science</h6>
             </div>
           </div>
-          <div class="line"></div>
-        </li>
-        <li>
-          <div class="timeline-image">
-            <img class="img-circle" src="images/SDUT.jpg" style="background-image: url(images/SDUT.jpg);" alt="">
+          <div class="meta-date">
+            <span class="year">2017</span>
+            <span class="month">Aug</span>
           </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4>Shandong University of Technology</h4>
-              <h4 class="subheading">B.S. Major in Civil and Environmental Engineering</h4>
+        </div>
+        <!-- // Article -->
+
+        <!-- Article -->
+        <div class="timeline-article">
+          <div class="content-left-container">
+            <img class="timeline-image" src="images/SDUT.jpg" style="background-image: url(images/SDUT.jpg);" alt="">
+          </div>
+          <div class="content-right-container">
+            <div class="content-right">
+              <h5 class="university">Shandong University of Technology</h5>
+              <h6>B.S. Major in Civil and Environmental Engineering</h6>
             </div>
-            <h6>09/2013 - 06/2017</h6>
           </div>
-        </li>
-      </ul>
+          <div class="meta-date">
+            <span class="year">2013</span>
+            <span class="month">Sep</span>
+          </div>
+        </div>
+        <!-- // Article -->
+      </div>
+    </section>
 
 
 
