@@ -170,6 +170,21 @@ h6 .major {
   margin-left: 38px;
   margin-top: 70px;
 }
+.timeline-article .meta-date .work-start-month-year {
+  font-size: 16px;
+  margin-left: auto;
+  font-weight: bold;
+}
+.timeline-article .meta-date .work-end-month-year {
+  font-size: 16px;
+  margin-left: auto;
+  font-weight: bold;
+}
+.timeline-article .meta-date .dash-line {
+  font-size: 16px;
+  margin-left: auto;
+  font-weight: bold;
+}
 /*===== // Vertical Timeline =====*/
 
 /*===== Resonsive Vertical Timeline =====*/
