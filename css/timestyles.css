@@ -165,24 +165,23 @@ h6 .major {
 }
 .timeline-article .meta-date .month {
   font-size: 18px;
-  line-height: 10px;
   position: absolute;
   margin-left: 38px;
   margin-top: 70px;
 }
 .timeline-article .meta-date .work-start-month-year {
-  font-size: 16px;
-  margin-left: auto;
+  font-size: 15px;
   font-weight: bold;
+  position:absolute;
+  margin-left: 2px;
+  margin-top: 2px;
 }
 .timeline-article .meta-date .work-end-month-year {
-  font-size: 16px;
-  margin-left: auto;
+  font-size: 14px;
   font-weight: bold;
 }
 .timeline-article .meta-date .dash-line {
-  font-size: 16px;
-  margin-left: auto;
+  font-size: 15px;
   font-weight: bold;
 }
 /*===== // Vertical Timeline =====*/
