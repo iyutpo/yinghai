@@ -53,7 +53,7 @@ h6 .major {
 }
 .timeline-article {
   width: 200%;
-  height: 250px;
+  height: 150px;
   position: relative;
   overflow: hidden;
   margin: 20px 0;
@@ -170,18 +170,19 @@ h6 .major {
   margin-top: 70px;
 }
 .timeline-article .meta-date .work-start-month-year {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
-  position:absolute;
-  margin-left: 2px;
-  margin-top: 2px;
+  position: relative;
+  bottom: auto;
 }
 .timeline-article .meta-date .work-end-month-year {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: bold;
+  position: relative;
+  margin-bottom: 3px;
 }
 .timeline-article .meta-date .dash-line {
-  font-size: 15px;
+  font-size: 11px;
   font-weight: bold;
 }
 /*===== // Vertical Timeline =====*/
@@ -215,7 +216,7 @@ h6 .major {
   .timeline-article .content-right {
     padding: 10px 25px;
     min-height: 65px;
-    position: absolute;
+    position: relative;
     top: 30%;
     left: 50%;
     margin-left: -45px;
